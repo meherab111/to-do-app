@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+  background-color: rgb(2, 15, 29);
+}
+
+.div-body {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.newTodoListElem {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+li {
+  margin-block: 0.5rem;
+  font-family: "Urbanist", sans-serif;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+input {
+  height: 3vh;
+  width: 90%;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(12, 166, 172);
+  margin-block: 3rem;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: "Urbanist", sans-serif;
+  color: rgb(14, 2, 66);
+  font-size: 1.1rem;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: rgb(80, 255, 118);
+  border: none;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: rgb(34, 167, 78);
+  color: rgb(34, 4, 167);
+  transition: all 0.2s ease-in-out;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  font-family: "Urbanist", sans-serif;
+  color: rgb(14, 2, 66);
+  font-size: 1.1rem;
+  height: 40px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: rgb(233, 118, 98);
+  border: none;
+  font-weight: 600;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(177, 75, 57);
+  color: rgb(34, 4, 167);
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 50em) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 30em) {
+  h1 {
+    font-size: 3rem;
+  }
+}
