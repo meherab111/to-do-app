@@ -90,6 +90,8 @@ h1 {
   transition: all 0.2s ease-in-out;
 }
 
+/** Media Query  */
+
 @media (max-width: 50em) {
   h1 {
     font-size: 3.5rem;
